@@ -39,7 +39,7 @@ jobs:
       - name: Organize pages structure
         run: |
           mkdir _site && mkdir _site/api
-          cp -r core/build/dokka/html/* _site/api
+          cp -r designsystem/build/dokka/html/* _site/api
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
