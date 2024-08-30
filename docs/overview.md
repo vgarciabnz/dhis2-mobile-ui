@@ -6,15 +6,13 @@ sidebar_position: 1
 
 # DHIS2 Mobile UI
 
-Overview
+> Overview
+> Give a general overview of the library.
 
-Targets:
-- Android
-- Desktop
+> Targets:
+> - Android
+> - Desktop
 
-Explain the kind of projects it can be used for. The requirements (Kotlin, compose,...)
-
-
-**DHIS2 Mobile UI library** is based in
-the [DHIS2 Mobile Design System Figma library](https://www.figma.com/file/eRk6bt0B8BJlTO9PZXirHN/DHIS2-Mobile-Design-System).
-
+> For each target, explain the kind of projects it can be used for. The requirements (Kotlin, compose,...).
+> For example, in Android the library can be used in any project that has Kotlin and Compose (it is not required to be multiplatform).
+> In Desktop, the project must be multiplatform, or at least to be a Kotlin project with the Desktop target.
