@@ -92,7 +92,7 @@ tasks.withType(DokkaTask::class).configureEach {
     }
     val dokkaBaseConfiguration = """
     {
-      "customAssets": ["${file("logo-icon.svg")}"]
+      "customAssets": ["${file("../assets/logo-icon.svg")}"]
     }
     """
     pluginsMapConfiguration.set(
